@@ -54,7 +54,6 @@ function Joke() {
       <h1>Joke of the Day!</h1>
       <h3>{jokes.setup}</h3>
       <h3>{jokes.punchline}</h3>
-      <p>Joke ID #{jokes.id}</p>
       <StyledButton onClick={FetchJokes}>Get New Joke</StyledButton>
     </StyledDiv>
   );
